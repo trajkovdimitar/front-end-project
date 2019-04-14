@@ -19,7 +19,10 @@ html, body {
   span {
     box-sizing: border-box;
   }
-  
+  .fill{
+    width: 100%;
+    height: 100%;
+  }
   .iphone, .screen {
     border: 0.5vh solid #525c6b;
   }
@@ -30,8 +33,8 @@ html, body {
     position: relative;
   }
   
-  .screen {
-    background: linear-gradient(to top, #c0c0c5 11.5vh, #000000 11.5vh);
+  .screen{
+    background: linear-gradient(to top, #c0c0c5 11.5vh, #acacad 11.5vh);
     /* background: linear-gradient(to bottom, #ff268e 0%, #ff694f 100%); */
     display: flex;
     flex-wrap: wrap;
