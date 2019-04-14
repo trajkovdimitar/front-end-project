@@ -2,6 +2,10 @@
         left: 32%;
         text-align: center;       
 }
+.iphone-x .screen {
+    background: #ff268e;
+    background: linear-gradient(to bottom, #ff268e 0%, #ff694f 100%);
+}
 .custom-device {
     display: inline-block;
     position: relative;
