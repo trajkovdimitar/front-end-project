@@ -1,6 +1,7 @@
-.custom-device, .iphone-x{    
-        left: 32%;
-        text-align: center;       
+.custom-device, .iphone-x, .new {    
+        left: 36%;
+        top: 32%;
+        text-align: center;
 }
 .iphone-x .screen {
     background: #ff268e;
@@ -341,7 +342,7 @@
     top: -8px
 }
 
-.marvel-device .screen {
+.custom-device .screen {
     text-align: left;
     width: 100%;
     position: relative;
